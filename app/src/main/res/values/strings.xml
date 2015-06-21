@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Clipio</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>\
+    <string name="btn_delete">Delete</string>
+    <string name="confirm_delete">Delete link?</string>
+    <string name="confirm_delete_all">Delete all non-starred items?\n</string>
+    <string name="recent_not_deleted">Items added within 24 hours will not be deleted.\n</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="link_added_notification">Link added to Clipio</string>
+
+    <string name="info"><![CDATA[
+        <body>
+            <p><b>Welcome to Clipio!</b></p>
+            <p><img src=\"logo.png\"/></p>
+            <p>Copy a link from any app to Clipboard.<br/>It will automatically appear here.</p>
+            <p>Delete old links in a snap to keep your list clean.</p>
+            <p><b>Clipio respects your privacy. It collects no data and doesn\'t require you to login.</b></p>
+        </body>]]>
+    </string>
+
+    <!-- Preferences -->
+    <string name="pref_start_boot">Launch on startup</string>
+    <string name="pref_start_boot_summary">Launch the service automatically when the device starts</string>
+    <string name="pref_cleanup_today">Delete recent items</string>
+    <string name="pref_cleanup_today_summary">Delete will also include items added within the last 24 hours</string>
+
+</resources>

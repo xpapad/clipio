@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+
+    <ToggleButton
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical"
+        android:text=""
+        android:textOn=""
+        android:textOff=""
+        android:background="@android:color/transparent"
+        android:button="@drawable/btn_star"
+        android:id="@+id/buttonStar"
+        android:checked="false" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        android:id="@+id/layoutLabel">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical|left"
+            android:text="www.example.com"
+            android:textStyle="bold"
+            android:id="@+id/textHost" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical|left"
+            android:text="This will change\nIt is a an example!"
+            android:id="@+id/textLabel" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical|right"
+        android:gravity="center"
+        android:text="today"
+        android:id="@+id/textCreated" />
+</LinearLayout>
